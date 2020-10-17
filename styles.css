@@ -4,8 +4,31 @@
 
 body {
   height: 100vh;
+  margin: 0;
   background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
   font-family: 'Kumbh Sans', sans-serif;
   font-size: 12px;
+  color: hsl(237, 12%, 33%);
+  display: grid;
 }
 
+.main.main__container {
+  border: 1px solid black;
+  border-radius: .5rem;
+  background-image: url(./images/bg-pattern-desktop.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+  margin: auto;
+  height: 50vh;
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.dropdown-item {
+}
