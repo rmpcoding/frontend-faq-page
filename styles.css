@@ -18,6 +18,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-color: white;
+  box-shadow: 0 11px 17px 0 hsl(238, 29%, 36%);
   margin: auto;
   height: 50vh;
   width: 100%;
