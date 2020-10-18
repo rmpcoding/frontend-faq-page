@@ -5,11 +5,20 @@
 body {
   height: 100vh;
   margin: 0;
+  padding: 0;
   background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
   font-family: 'Kumbh Sans', sans-serif;
   font-size: 16px;
   color:hsl(238, 29%, 16%);
   display: grid;
+}
+
+.text {
+  margin: 0;
+}
+
+.header {
+  margin-bottom: 1.5rem;
 }
 
 .main.main__container {
@@ -19,14 +28,21 @@ body {
   background-repeat: no-repeat;
   background-color: white;
   box-shadow: 0 11px 17px 0 hsl(238, 29%, 36%);
-  margin: auto;
+  margin: auto 10vw;
+  padding-top: 3.5em;
+  padding-bottom: 3.5em;
   height: auto;
-  width: 100%;
   max-width: 1440px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+div.main.dropdown-item {
+  width: 50%;
+  display: flex;
+  align-self: flex-end;
 }
 
 .main.dropdown-item {
@@ -41,3 +57,4 @@ body {
   color: hsl(238, 29%, 16%);
   padding: .5em;
 }
+
