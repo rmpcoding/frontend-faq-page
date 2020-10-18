@@ -19,6 +19,9 @@ body {
 
 .header {
   margin-bottom: 1.5rem;
+  width: 50%;
+  display: flex;
+  align-self: flex-end;
 }
 
 .main.main__container {
@@ -55,6 +58,6 @@ div.main.dropdown-item {
   display: flex;
   text-align: left;
   color: hsl(238, 29%, 16%);
-  padding: .5em;
+  padding: .5em 0;
 }
 
