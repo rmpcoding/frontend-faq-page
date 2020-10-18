@@ -20,7 +20,7 @@ body {
   background-color: white;
   box-shadow: 0 11px 17px 0 hsl(238, 29%, 36%);
   margin: auto;
-  height: 50vh;
+  height: auto;
   width: 100%;
   max-width: 1440px;
   display: flex;
