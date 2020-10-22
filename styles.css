@@ -24,23 +24,6 @@ body {
   align-self: flex-end;
 }
 
-/* div.img.img__woman {
-  background-image: url(./images/illustration-woman-online-desktop.svg);
-  position: absolute;
-  z-index: 1;
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-left: -5%;
-  padding-top: 3.5em;
-  padding-bottom: 3.5em;
-  padding-right: 5.5em;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-} */
-
 .main.main__container {
   border-radius: 1.5rem;
   background-image: url(./images/bg-pattern-desktop.svg);
@@ -58,6 +41,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
 }
 
 div.main.dropdown-item {
@@ -76,31 +60,3 @@ div.main.dropdown-item {
   color: hsl(238, 29%, 16%);
   padding: .5em 0;
 }
-
-/* .img__woman {
-  display: flex;
-  margin-left: -5%;
-  width: fit-content;
-  align-self: flex-start;
-  align-items: center;
-  position: absolute;
-} */
-
-/* .img.img__woman {
-  background-image: url(./images/illustration-woman-online-desktop.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 11%;
-} */
-
-/* .img.img__woman {
-  background-image: url(./images/illustration-woman-online-desktop.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  border: 1px solid black;
-  height: 25vh;
-  width: 25%;
-  display: flex;
-  justify-content: center;
-} */
