@@ -75,6 +75,11 @@ div.main.dropdown-item {
   right: 0%;
 }
 
+.arrow-icon:hover {
+  cursor: pointer;
+  opacity: 50%;
+}
+
 .p__question {
   padding-right: 10px;
 }
