@@ -74,3 +74,7 @@ div.main.dropdown-item {
   top: 50%;
   right: 0%;
 }
+
+.p__question {
+  padding-right: 10px;
+}
