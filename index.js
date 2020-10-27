@@ -1,5 +1,10 @@
 const arrowIcons = document.querySelectorAll('.arrow-icon');
 const questions = document.querySelectorAll('.p__question');
+const answers = document.querySelectorAll('.p__answer');
+
+answers.forEach((answer) => {
+    answer.style.display = "none";
+})
 
 arrowIcons.forEach((arrowIcon) => {
     arrowIcon.addEventListener('click', () => {
@@ -8,6 +13,7 @@ arrowIcons.forEach((arrowIcon) => {
         // isQuestionBold initially starts off as falsy on first click
         if (!isQuestionBold) {
             arrowIcon.nextElementSibling.style.fontWeight = "700";
+            // here is where the code should display the p__answer text
         }
 
         // toggles emboldened question to normal font weight
@@ -19,5 +25,9 @@ arrowIcons.forEach((arrowIcon) => {
         if (isQuestionBold === "400") {
             arrowIcon.nextElementSibling.style.fontWeight = "700";
         }
+
+
+
+
     });
 });
