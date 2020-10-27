@@ -3,11 +3,21 @@ const questions = document.querySelectorAll('.p__question');
 
 arrowIcons.forEach((arrowIcon) => {
     arrowIcon.addEventListener('click', () => {
-        arrowIcon.nextElementSibling.style.fontWeight = "700";
-        // Run ternary operation OR if statement to toggle on or off
-        // If fontWeight is equal to 700
-            // Change fontWeight to normal size
-        // Else do change fontWeight to 700
-        console.log(arrowIcon.nextElementSibling.style.fontWeight)
+        let isQuestionBold = arrowIcon.nextElementSibling.style.fontWeight;
+        
+        // isQuestionBold initially starts off as falsy on first click
+        if (!isQuestionBold) {
+            arrowIcon.nextElementSibling.style.fontWeight = "700";
+        }
+
+        // toggles emboldened question to normal font weight
+        if (isQuestionBold === "700") {
+            arrowIcon.nextElementSibling.style.fontWeight = "400";
+        }
+
+        // toggles normal font weight to emboldened question
+        if (isQuestionBold === "400") {
+            arrowIcon.nextElementSibling.style.fontWeight = "700";
+        }
     });
 });
