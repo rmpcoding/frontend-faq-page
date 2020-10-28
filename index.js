@@ -3,7 +3,7 @@ const questions = document.querySelectorAll('.p__question');
 const answers = document.querySelectorAll('.p__answer');
 
 answers.forEach((answer) => {
-    answer.style.display = "none";
+    // answer.style.display = "none";
 })
 
 arrowIcons.forEach((arrowIcon) => {

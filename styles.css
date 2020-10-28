@@ -55,13 +55,15 @@ div.main.dropdown-item {
 .main.dropdown-item {
   border-bottom: 1px solid hsl(240, 5%, 91%);
   color: hsl(240, 5%, 91%);
-
+  position: relative;
 }
 
 .dropdown-item {
   display: flex;
   color: hsl(238, 29%, 16%);
   padding: .5em 0;
+  display: inline-block;
+
 }
 
 .arrow-icon {
@@ -77,9 +79,14 @@ div.main.dropdown-item {
 
 .arrow-icon:hover {
   cursor: pointer;
+  display: block;
   opacity: 50%;
 }
 
 .p__question {
   padding-right: 10px;
+}
+.p__answer {
+  /* display: none; */
+  padding-top: 1em;
 }
