@@ -86,7 +86,8 @@ div.main.dropdown-item {
 .p__question {
   padding-right: 10px;
 }
+
 .p__answer {
-  /* display: none; */
+  display: none;
   padding-top: 1em;
 }
