@@ -2,10 +2,6 @@ const arrowIcons = document.querySelectorAll('.arrow-icon');
 const questions = document.querySelectorAll('.p__question');
 const answers = document.querySelectorAll('.p__answer');
 
-answers.forEach((answer) => {
-    // answer.style.display = "none";
-})
-
 arrowIcons.forEach((arrowIcon) => {
     arrowIcon.addEventListener('click', () => {
         let isQuestionBold = arrowIcon.nextElementSibling.style.fontWeight;
