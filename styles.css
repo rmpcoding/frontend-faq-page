@@ -11,6 +11,7 @@ body {
   font-size: 16px;
   color:hsl(238, 29%, 16%);
   display: grid;
+
 }
 
 .text {
@@ -41,9 +42,14 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  overflow: hidden;
+  position: relative;
 }
 
-
+.image__woman {
+  position: absolute;
+  right: 65%;
+}
 
 div.main.dropdown-item {
   width: 50%;
