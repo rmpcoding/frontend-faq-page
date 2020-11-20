@@ -48,7 +48,7 @@ body {
 
 .image__woman {
   position: absolute;
-  right: 65%;
+  left: -10%;
 }
 
 div.main.dropdown-item {
