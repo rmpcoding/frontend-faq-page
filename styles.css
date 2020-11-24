@@ -68,7 +68,6 @@ div.main.dropdown-item {
   color: hsl(238, 29%, 16%);
   padding: .5em 0;
   display: inline-block;
-
 }
 
 .arrow-icon {
@@ -107,15 +106,34 @@ div.main.dropdown-item {
     display: none;
   }
 
+  .header__FAQ {
+    margin-top: 5.2rem;
+    margin-bottom: 0;
+  }
+
+  header.header {
+    justify-content: center;
+    align-self: center;
+  }
+
   .image__woman__mobile {
     display: flex;
     position: absolute;
-    top: -10%;
-    left: 0;
+    margin-top: 10%;
+    top: -20%;
+    left: 1em;
+    right: 0;
   }
 
   .main.main__container {
+    height: auto;
+    margin-top: 6rem;
+    padding: 1.5em 1.5em;
     display: flex;
     overflow: visible;
+  }
+
+  div.main.dropdown-item {
+    width: 100%;
   }
 }
