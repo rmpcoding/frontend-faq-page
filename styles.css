@@ -119,10 +119,9 @@ div.main.dropdown-item {
   .image__woman__mobile {
     display: flex;
     position: absolute;
-    margin-top: 10%;
-    top: -20%;
-    left: 1em;
-    right: 0;
+    margin-top: 5%;
+    top: -30%; 
+    margin-left: -2.5rem;
   }
 
   .main.main__container {
