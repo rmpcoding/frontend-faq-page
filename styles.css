@@ -101,7 +101,7 @@ div.main.dropdown-item {
   display: none
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 480px) {
   .image__woman__desktop {
     display: none;
   }
