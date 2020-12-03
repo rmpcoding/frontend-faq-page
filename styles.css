@@ -107,7 +107,7 @@ div.main.dropdown-item {
   }
 
   .header__FAQ {
-    margin-top: 5.2rem;
+    margin-top: 6.2rem;
     margin-bottom: 0;
   }
 
@@ -119,14 +119,14 @@ div.main.dropdown-item {
   .image__woman__mobile {
     display: flex;
     position: absolute;
-    margin-top: 5%;
+    margin-top: 10%;
     top: -30%; 
     margin-left: -2.5rem;
   }
 
   .main.main__container {
     height: auto;
-    margin-top: 6rem;
+    margin-top: 12rem;
     padding: 1.5em 1.5em;
     display: flex;
     overflow: visible;
