@@ -139,4 +139,8 @@ div.main.dropdown-item {
   p.p__question.text {
     font-size: 12px;
   }
+
+  p.p__answer.text {
+    font-size: 12px;
+  }
 }
