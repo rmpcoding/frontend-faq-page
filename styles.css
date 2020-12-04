@@ -125,7 +125,7 @@ div.main.dropdown-item {
   }
 
   .main.main__container {
-    height: auto;
+    height: 65vh;
     margin-top: 12rem;
     padding: 1.5em 1.5em;
     display: flex;
