@@ -124,6 +124,9 @@ div.main.dropdown-item {
   }
 
   .main.main__container {
+    background-position-y: -17vh;
+    background-position-x: 42%;
+    background-size: 80%;
     height: 65vh;
     margin-top: 12rem;
     padding: 1.5em 1.5em;
