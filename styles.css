@@ -50,6 +50,10 @@ body {
   left: -10%;
 }
 
+.image__box {
+  overflow: visible;
+}
+
 div.main.dropdown-item {
   width: 50%;
   display: flex;
@@ -102,7 +106,11 @@ div.main.dropdown-item {
 }
 
 @media only screen and (max-width: 480px) {
-  .image__woman__desktop {
+  .image__desktop {
+    display: none;
+  }
+
+  .image__box {
     display: none;
   }
 
