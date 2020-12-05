@@ -41,7 +41,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  overflow: hidden;
+  overflow: auto;
   position: relative;
 }
 
@@ -51,7 +51,9 @@ body {
 }
 
 .image__box {
-  overflow: visible;
+  left: 2%;
+  top: 45%;
+  z-index: 1;
 }
 
 div.main.dropdown-item {
