@@ -27,6 +27,7 @@ body {
 .main.main__container {
   border-radius: 1.5rem;
   background-image: url(./images/bg-pattern-desktop.svg);
+  background-position-x: -13%;
   background-size: contain;
   background-repeat: no-repeat;
   background-color: white;
