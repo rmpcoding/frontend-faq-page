@@ -56,11 +56,3 @@ $(document).ready(() => {
 });
 
 // jQuery added for animations
-
-
-// create two separate classes for both div questions and answers
-// create function to toggle on/off classes when arrow icon is clicked
-    // class #1 should display question in bold
-    // class #2 should display answer
-
-
