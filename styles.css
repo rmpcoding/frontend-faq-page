@@ -95,6 +95,7 @@ div.main.dropdown-item {
 }
 
 .p__question {
+  font-weight: inherit;
   padding-right: 10px;
 }
 
